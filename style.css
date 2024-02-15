@@ -43,6 +43,10 @@ table {
 	border-spacing: 0;
 }
 
+html {
+    height: 100vh;
+}
+
 .header {
     padding-left: 50px;
     min-height: 20vh;
@@ -88,3 +92,24 @@ img {
 .name {
     font-size: 50px;
 }
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 50px;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 50vw;
+}
+
+.appetizers {
+    display: flex;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
